@@ -5,34 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Header -->
     <header class="header">
-        <a class="logo" href="">Web<span class="logo-primary">Studio</span></a>
+        <a class="logo link" href="">Web<span class="logo-primary">Studio</span></a>
         <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
-                <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
+            <ul class="nav-list list">
+                <li class="nav-item"><a class="nav-link link current" href="./index.html">Студия</a></li>
+                <li class="nav-item"><a class="nav-link link" href="./portfolio.html">Портфолио</a></li>
+                <li class="nav-item"><a class="nav-link link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="contacts-list">
-            <li class="contacts-item"><a class="contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contacts-item"><a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="contacts-list list">
+            <li class="contacts-item"><a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts-item"><a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
         <!-- Герой -->
         <section class="hero">
             <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-button" type="button">Заказать услугу</button>
+            <button class="hero-button button" type="button">Заказать услугу</button>
         </section>
         <!-- Особенности -->
         <section class="features">
             <h2 class="subtitle">Особенности</h2>
-            <ul class="features-list">
+            <ul class="features-list list">
                 <li class="features-item">
                     <h3 class="fetures-title">Внимание к деталям</h3>
                     <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -54,7 +58,7 @@
         <!-- Чем мы занимаемся -->
         <section class="activity">
             <h2 class="subtitle">Чем мы занимаемся</h2>
-            <ul class="activity-list">
+            <ul class="activity-list list">
                 <li class="activity-item"><img class="activity-img" src="./images/box1.jpg" alt="Человек печатает на клавиатуре" width="370" height="294"></li>
                 <li class="activity-item"><img class="activity-img" src="./images/box2.jpg" alt="Человек держит телефон" width="370" height="294"></li>
                 <li class="activity-item"><img class="activity-img" src="./images/box3.jpg" alt="Цветовая гамма на екране планшета" width="370" height="294"></li>
@@ -63,7 +67,7 @@
         <!-- Наша команда -->
         <section class="people">
             <h2 class="subtitle">Наша команда</h2>
-            <ul class="people-list">
+            <ul class="people-list list">
                 <li class="people-item">
                     <img class="people-img" src="./images/photo1.jpg" alt="Игорь Демьяненко" width="270" height="260">
                     <h3 class="people-name">Игорь Демьяненко</h3>
@@ -76,7 +80,7 @@
                 </li>
                 <li class="people-item">
                     <img class="people-img" src="./images/photo3.jpg" alt="Николай Тарасов" width="270" height="260">
-                    <h3>Николай Тарасов</h3>
+                    <h3 class="people-name">Николай Тарасов</h3>
                     <p class="people-position">Marketing</p>
                 </li>
                 <li class="people-item">
@@ -89,12 +93,12 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-        <a class="logo" href="">Web<span class="logo-secondary">Studio</span></a>
+        <a class="logo link" href="">Web<span class="logo-secondary">Studio</span></a>
         <address class="address">
-            <ul class="address-list">
-                <li class="address-item"><a class="address-location" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li class="address-item"><a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="address-item"><a class="address-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="address-list list">
+                <li class="address-item"><a class="address-location link" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="address-item"><a class="address-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="address-item"><a class="address-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
