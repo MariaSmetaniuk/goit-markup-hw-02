@@ -38,6 +38,10 @@ body {
 .list {
   list-style: none;
 }
+
+.hidden {
+  display: none;
+}
 /* header */
 /* Logo */
 .logo {
